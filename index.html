@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-fark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white">Consulta Cep</a>
+        <div class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="CEP" id="cep">
+          <button class="btn btn-outline-success"  onclick="consultaCep()" type="">Buscar</button>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container CEP1" style="margin-top:20px">
+        <div class="row">
+            <h3>CEP</h3>
+        </div>
+        <div class="row">
+            <table class="table">
+                <thead>
+                 
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>logradouro</td>
+                    <td id="logradouro"></td>
+               
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Bairro</td>
+                    <td id="bairro"></td>
+            
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>localidade</td>
+                    <td id="localidade"></td>
+                  
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>UF</td>
+                    <td id="uf""></td>
+           
+                  </tr>
+                </tbody>
+              </table>
+              
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <input id="cep">
+<button onclick="consultaCep()">Consultar</button>
+<p id="logradouro"> </p>
+<p id="bairro""> </p>
+<p id="localidade"> </p>
+<p id="uf"> </p> -->
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
